@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Fullstack.css"
-import { StackNavbar } from './StackNavbar';
+// import { StackNavbar } from './StackNavbar';
 
 
-const CourseStructure =()=>{
+const CourseStructure =(props)=>{
 
     return <>
     <div className="container">
@@ -11,13 +11,14 @@ const CourseStructure =()=>{
             <div className="col">
                 <p className="text-center">Courses</p>
                 <h3 className="text-center"> Structure</h3>
-                <p>Core modules reinforce economic theory with practical application. They include preliminary courses in mathematical and statistical techniques, which take place in September and have to be passed in order to progress to the course.</p>
+                <p>{props.text1}</p>
 
-                <p>Options provide specialised modules with current themes. Option module availability varies across years.</p>
+                <p>{props.text2}</p>
+                <p>{props.text3}</p>
             </div>
         </div>
 
-<StackNavbar />
+{/* <StackNavbar /> */}
 
   
 </div>

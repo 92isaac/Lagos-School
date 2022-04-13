@@ -34,7 +34,7 @@ const FullstackNav = () => {
           <NavLink to="/"  className={({ isActive }) => (isActive ? 'active nav-link text-light' : 'nav-link text-light')}
                 onClick={click ? handleClick : null} aria-current="page" > Home </NavLink>
         </li>
-        <li className="nav-item dropdown" data-bs-autoClose="outside">
+        <li className="nav-item dropdown" data-bs-auto-close="outside">
           <NavLink to="Courses" className={({ isActive }) => (isActive ? 'active nav-link dropdown-toggle' : 'nav-link dropdown-toggle')}
                 onClick={click ? handleClick : null}  id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{color:'#fff'}}>
             Courses

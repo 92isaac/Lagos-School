@@ -14,23 +14,23 @@ const FullstackHero =(props)=>{
                 <thead>
                     <tr>
                         <td width="120" className="paddingLeft">Year of Entry</td>
-                        <td>2022</td>
+                        <td>{props.year}</td>
                     </tr>
                     <tr>
                         <td width="120" className="paddingLeft">Start Date</td>
-                        <td>September 2022</td>
+                        <td>{props.date}</td>
                     </tr>
                     <tr>
                         <td width="120" className="paddingLeft"> Location</td>
-                        <td>Lagos State</td>
+                        <td>{props.location}</td>
                     </tr>
                     <tr>
                         <td width="120" className="paddingLeft">Duration</td>
-                        <td>One year full-time or two years part-time</td>
+                        <td>{props.duration}</td>
                     </tr>
                     <tr>
                         <td width="120" className="paddingLeft">Attendance</td>
-                        <td>Four to five afternoons/evenings a week full-time or two to three evenings a week part-time, September to August</td>
+                        <td>{props.attendance}</td>
                     </tr>
                 </thead>
             </table>
